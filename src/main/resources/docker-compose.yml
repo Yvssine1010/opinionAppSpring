@@ -2,8 +2,8 @@
 
 services:
 
-  db:
-    image: mariadb
+ db:   # db est le nom du service Docker qui exécute MariaDB
+    image: mariadb:11.8.2-noble
     restart: always
     environment:
       MARIADB_ROOT_PASSWORD: root
