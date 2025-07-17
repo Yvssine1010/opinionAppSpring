@@ -10,7 +10,7 @@ services:
     ports:
       - 3307:3306
 
-  adminer:
+ adminer:
     image: adminer
     restart: always
     ports:
